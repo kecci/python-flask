@@ -19,7 +19,7 @@ $ pip --version
 
 install pipenv (dependency manager for Python projects)
 ```
-$ pip install --user pipenv
+$ brew install pipenv
 ```
 
 install virtualenv (lower-level: a tool to create isolated Python environments)
