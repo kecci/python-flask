@@ -1,6 +1,35 @@
 # python-flask
 
-## Install Virtual Environment & Flask
+## Install python
+
+Install Python 3:
+```
+$ brew install python
+```
+
+check python
+```
+$ python --version
+```
+
+check pip (the package installer for Python)
+```
+$ pip --version
+```
+
+install pipenv (dependency manager for Python projects)
+```
+$ pip install --user pipenv
+```
+
+install virtualenv (lower-level: a tool to create isolated Python environments)
+```
+$ pip install virtualenv
+
+$ virtualenv --version
+```
+
+## Install Virtual Environment and Flask
 1. Generate Virtual environment
 ```
 python3 -m venv venv
@@ -23,6 +52,11 @@ created virtual environment CPython3.9.1.final.0-64 in 702ms
 3. Use virtual environment:
 ```
 source venv/bin/activate
+```
+
+to deactive:
+```
+$ deactivate
 ```
 
 4. After we have virtual environment, install flask
